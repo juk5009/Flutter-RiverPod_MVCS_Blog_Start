@@ -17,7 +17,7 @@ class Post {
     required this.created,
     required this.updated,
   });
-
+//toJson은 toMap이라 생각하면된다.
   Map<String, dynamic> toJson() => {
     "id": id,
     "title": title,
